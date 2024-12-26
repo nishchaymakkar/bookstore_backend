@@ -1,0 +1,20 @@
+services:
+  db:
+    image: mysql:8.0 # Replace with the MySQL version you're using
+
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 7488@sql2024
+      MYSQL_DATABASE: bookstore
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 7488@sql2024
+    ports:
+      - "3307:3306"
+
+
+  adminer:
+
+    image: adminer:latest
+    restart: always
+    ports:
+      - 8888:8080
