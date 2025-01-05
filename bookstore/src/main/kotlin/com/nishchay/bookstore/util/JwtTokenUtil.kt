@@ -26,8 +26,8 @@ class JwtTokenUtil {
         return Jwts.parser()
             .setSigningKey(key)
             .build()
-            .parseClaimsJwt(token)
-            .body
+            .parseClaimsJws(token)
+            .payload
     }
 
     fun isTokenValid(token: String): Boolean {
