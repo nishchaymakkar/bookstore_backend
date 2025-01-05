@@ -4,11 +4,11 @@ services:
 
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 7488@sql2024
       MYSQL_DATABASE: bookstore
 
     ports:
-      - "3307:3306"
+      - "3306:3306"
 
 
   adminer:
