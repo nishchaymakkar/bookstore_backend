@@ -80,3 +80,4 @@ fun UserSignUpDto.toUserEntity() = UserEntity(
     userPassword = this.userPassword,
     userName = this.userName
 )
+

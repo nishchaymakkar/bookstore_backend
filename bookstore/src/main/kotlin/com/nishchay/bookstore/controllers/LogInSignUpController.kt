@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController
 
 
 @RestController
-@RequestMapping("/bookstore")
+@RequestMapping("bookstore")
 class LogInSignUpController(
     private val logInSignUpService: LogInSignUpService
 ) {
