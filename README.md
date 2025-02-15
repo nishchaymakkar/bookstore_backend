@@ -53,7 +53,7 @@ Bookstore Backend is a RESTful API built using **Spring Boot** and **Kotlin**, d
 Base Url:-
 auth:- http://localhost:8080/bookstore
 authors:- http://localhost:8080/bookstore/v1/authors
-books: http://localhost:8080/bookstore/v1
+books:- http://localhost:8080/bookstore/v1
 
 | Method | Endpoint              | Description                |
 |--------|-----------------------|----------------------------|
