@@ -83,7 +83,7 @@ To run unit and integration tests, use:
 
 ## License
 
-This project is licensed under the MIT License.
+-This project is licensed under the MIT License. [MIT License](LICENSE)
 
 ---
 Developed by **Nishchay Makkar** 🚀
